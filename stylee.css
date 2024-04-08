@@ -1,9 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Advent+Pro|Dancing+Script&display=swap');
 @media screen and (min-width: 768px) and (max-width: 1024px) {
-}
-@media screen and (max-width: 768px) {
-    
-}
+
 body {
     font-family: 'Advent Pro',sans-serif;
     padding: 0;
@@ -239,4 +236,5 @@ button:hover {
 #icons a:hover {
     transform: scale(1.5);
     transition: 0.1s;
+}
 }
