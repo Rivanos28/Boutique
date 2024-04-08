@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css?family=Advent+Pro|Dancing+Script&display=swap');
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+}
+@media screen and (max-width: 768px) {
+    
+}
+body {
+    font-family: 'Advent Pro',sans-serif;
+    padding: 0;
+    margin: 0;
+}
+ul {
+    margin: 0;
+    padding: 0;
+
+}
+li{
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+    color: goldenrod;
+}
+nav {
+    overflow: hidden;
+    background-color:black;
+    position: fixed; 
+    width: 100%;
+    opacity: 0.9;
+}
+header li {
+    float:left;
+    font-size: 1.2em;
+}
+#logo {
+    text-decoration-color: aqua;
+    color: goldenrod;
+    padding:3px 30px ;
+    padding-top: -30px;
+    mask-image: none;
+    margin: -20px;
+
+}
+header li a {
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    padding:30px  40px;
+    
+}
+#logo1 {
+    float: right;
+}
+#logo2 {
+    float: right;
+}
+h2 {
+    text-transform:uppercase ;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 2em;
+}
+#ty {
+    padding:120px ;
+}
+#table {
+    position: fixed;
+}
+table th  {
+    margin-top: 10px;
+    font-size: 2em;
+    border-radius: 20px;
+    border: 20px;
+    padding: 10px 30px;
+    background-color: rgba(226, 213, 221, 0.671);
+    height: 20px;
+}
+#bg {
+    color: black;
+}
+#bl {
+    color: brown;
+}
+#pd {
+    color: darkturquoise;
+}
+footer{
+    background-color:#524A3A;
+    color: #FFFAE1;
+    padding: 20px 0 10px 0;
+    text-align: center;
+
+}
+form {
+    margin:0 auto ;
+    max-width: 900px;
+
+}
+input,textarea,button {
+    border: none;
+    width: 50%;
+    padding: 15px 10px;
+    margin: 1px 0;
+    font-size: 1.2em;
+    font-family:'Advent Pro','sans-serif';
+    border-radius: 9px;
+
+}
+textarea {
+    height: 120px;
+}
+button {
+    font-size: 1.5em;
+    background: #effaef;
+}
+button:hover {
+    background-color: #e55039;
+    color: #effae1;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+#deuxiemeTrait {
+    height: 1px;
+    width: 75%;
+    background-color:#FFFAE1 ;
+    margin:  60px auto;
+
+}
+#copyrightEticons {
+    display: flex;
+    margin-bottom: 20px;
+    padding: 0 10px;
+
+}
+#copyright {
+    width: 50%;
+    text-align: left;
+    color: #FFFAE1;
+}
+#icons {
+    width: 50%;
+    text-align: right;
+}
+#icons a {
+    display: inline-block;
+    margin: 0 15px;
+    font-size: 1.3em;
+    color: #FFFAE1;
+
+}
+#icons a:hover {
+    transform: scale(1.5);
+    transition: 0.1s;
+}
+form {
+    margin:0 auto ;
+    max-width: 900px;
+
+}
+#boutique {
+    padding:60px;
+    background-color: #54a089;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    grid-gap:80px; 
+}
+
+.bague {
+    display: flex; 
+    height: 300px;
+    width: 300px;
+}
+
+.bague img {
+    max-width: 100%; 
+    border-radius: 50px;
+    padding: 30px;
+}
+
+.description {
+    margin-right: 20px; 
+}
+
+.description h2 {
+    margin-top: 0; 
+}
+.bracelet img {
+    max-width: 100%;
+    border-radius: 50px;
+    padding: 30px;
+}
+.bracelet {
+    display: flex;
+    height: 300px;
+    width: 300px;
+}
+.pendentif img {
+    max-width: 100%;
+    border-radius: 60px;
+    padding: 30px;
+}
+.pendentif {
+    display: flex;
+    height: 300px;
+    width: 300px;
+}
+.collier img {
+    max-width: 100%;
+    border-radius: 60px;
+    padding: 30px;
+}
+.collier {
+    display: flex;
+    height: 300px;
+    width: 300px;
+}
+.boucles img {
+    max-width: 100%;
+    border-radius: 60px;
+    padding: 30px;
+}
+.boucles {
+    display: flex;
+    height: 300px;
+    width: 300px;
+}

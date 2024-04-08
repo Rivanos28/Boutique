@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/jpg" href="image bague/bague1.jpg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+    <title>Boutique en ligne de bijoux</title>
+    <link rel="stylesheet" href="recherche.css">                                                                      
+
+</head>
+<body>
+    <header>
+        <nav >
+            <ul>
+                <li id="logo"><h2>Boutique des bijoux</h2></li>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="boutique.html">Boutique</a></li>
+                <li><a href="apropos.html">A propos</a></li>
+                <li><a href="contact.html">Contacts</a></li>
+                <li><a href="index.html">Créations</a></li>
+                <li id="logo1"><a href="recherche.html">Recherche</a></li>
+                <li id="logo2"><a href="">Panier</a></li>
+                
+            </ul>
+        </nav>
+    </header>
+    <section id="rech0">
+        <h2 id="rech">Recherche de bijoux</h2>
+        <form method="get" action="recherche.php">
+            <label for="recherche">Recherche:</label><br>
+            <input type="text" id="recherche" name="q" placeholder="Entrez votre recherche" required><br><br>
+            <input type="submit" value="Rechercher">
+        </form>
+    </section>
+    <footer >
+        <h2>Contactez-nous</h2>
+        <form action="traitement.php" method="post">
+            <input type="text" id="nom" name="nom" placeholder="Nom">
+            <input  type="email" id="email" name="email" placeholder="E-mail">
+            <textarea id="message" name="message" rows="4" cols="50" placeholder="Votre message ici............."></textarea>
+            <button type="submit" value="Envoyer">Envoyer</button>
+        </form>
+        <div id="deuxiemeTrait"></div>
+        <div id="copyrightEtIcons">
+            <div id="copyright">
+                <span> fromScratch();2024 </span>
+            </div>
+            <div id="icons"> 
+                <a href="http://www.facebook.fr"><i class="fa fa-facebook"></i></a>
+                <a href="http://www.instagram.com"><i class ="fa fa-instagram"></i></a>
+            </div>
+        </div>
+    </footer>
+</body>
