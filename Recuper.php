@@ -1,6 +1,6 @@
 <?php
 // Connexion à la base de données MySQL
-$connexion = new mysqli("localhost", "votre_utilisateur", "votre_mot_de_passe", "votre_base_de_donnees");
+$connexion = new mysqli("localhost", "root", "", "produits");
 
 // Vérifier la connexion
 if ($connexion->connect_error) {
