@@ -130,7 +130,7 @@ const styles = StyleSheet.create({
   },
   brushButton: {
     width: 100,
-    height: 50,
+    height: 60,
     backgroundColor: '#8B0000', 
     justifyContent: 'center',
     alignItems: 'center',
